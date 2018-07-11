@@ -23,13 +23,13 @@ class ExampleThemeServiceProvider extends ServiceProvider {
 			$container->addStyleTemplate('ExampleTheme::ExampleTheme.css');
 		}, 0);
 
-		$eventDispatcher->listen('IO.tpl.home', function(TemplateContainer $container, $templateData){
-			$container->setTemplate('ExampleTheme::Homepage.Homepage');
-			return false;
-		}, 0);
+		// $eventDispatcher->listen('IO.tpl.home', function(TemplateContainer $container, $templateData){
+		// 	$container->setTemplate('ExampleTheme::Homepage.Homepage');
+		// 	return false;
+		// }, 0);
 
 		$eventDispatcher->listen('IO.init.templates', function(Partial $partial){
-			$partial->set('header', 'ExampleTheme::PageDesign.Partials.Header.Header');
+			// $partial->set('header', 'ExampleTheme::PageDesign.Partials.Header.Header');
 			$partial->set('footer', 'ExampleTheme::PageDesign.Partials.Footer');
 			return false;
 		}, 0);

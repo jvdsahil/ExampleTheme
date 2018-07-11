@@ -1,0 +1,1 @@
+{"version":3,"sources":["Ceres.scss"],"names":[],"mappings":"AAAA,+DAAY;AACZ;EACC,wBAAuB;CACvB","file":"ExampleTheme.css","sourcesContent":["@import url(https://fonts.googleapis.com/css?family=Open+Sans);\nbody {\n\tbackground-color: black;\n}\n"]}
