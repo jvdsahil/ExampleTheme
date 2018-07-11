@@ -1,0 +1,35 @@
+{
+    "formatVersion": 1,
+    "menu": {
+        "Config.GlobalTab": {
+            "label": "Config.globalTab",
+            "formFields": {
+                "homepage.foo1": {
+                    "type": "inputTextarea",
+                    "required": false,
+                    "label": "Config.foo1",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+
+                "homepage.foo2": {
+                    "type": "inputFile",
+                    "required": false,
+                    "label": "Config.foo2",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                },
+                "homepage.foo3": {
+                    "type": "inputText",
+                    "required": false,
+                    "label": "Config.foo3",
+                    "options": {
+                        "defaultValue": ""
+                    }
+                }
+            }
+        },
+    }
+}

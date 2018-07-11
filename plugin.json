@@ -1,0 +1,43 @@
+{
+    "author": "NetzEinflechter",
+    "authorIcon": "icon_author_xs.png",
+    "categories": [
+        "3527"
+    ],
+    "description": "",
+    "email": "kontakt@netzeinflechter.de",
+    "isClosedSource": true,
+    "license": "MIT",
+    "name": "ExampleTheme",
+    "namespace": "ExampleTheme",
+    "phone": "+49 (0)2163 – 3490010",
+    "pluginIcon": "icon_plugin_xs.png",
+    "price": 0,
+    "require": [
+        "IO",
+        "Ceres"
+    ],
+    "serviceProvider": "ExampleTheme\\Providers\\ExampleThemeServiceProvider",
+    "shortDescription": {
+        "de": "ExampleTheme"
+    },
+    "type": "template",
+    "version": "1.1.0",
+    "dataProviders": [
+        {
+            "key": "ExampleTheme\\Containers\\ExampleThemeTopArticle",
+            "name": "First item list",
+            "description": "Display a configurable list of items in your online store"
+        },
+        {
+            "key": "ExampleTheme\\Containers\\ExampleThemeGlobalAnalytics",
+            "name": "Global Analytics",
+            "description": "Global Analytics for alle ceres pages"
+        },
+        {
+            "key": "ExampleTheme\\Containers\\ExampleThemeConversionAnalytics",
+            "name": "Conversion Analytics",
+            "description": "Conversion Analytics for alle ceres pagess"
+        }
+    ]
+}
